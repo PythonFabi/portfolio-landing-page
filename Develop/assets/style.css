@@ -1,0 +1,38 @@
+header {
+    background-color: green;
+    font-size: 24px;
+    color: white;
+    text-align: end;
+    min-height: 75px;
+    text-align: center;
+    padding: auto 8px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    background-color: green;
+    font-size: 24px;
+    color: white;
+}
+
+section {
+    min-height: 400px;
+}
+
+#contact {
+    background-color: antiquewhite;
+    padding: 20%;
+    border: 5px solid darkgrey;
+}
+
+input {
+    margin: 8px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 20px; 
+}

@@ -1,15 +1,23 @@
+* {
+    font: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
 header {
     background-color: green;
     font-size: 24px;
     color: white;
-    text-align: end;
     min-height: 75px;
     text-align: center;
     padding: auto 8px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    left: 0;
+    display: inline-block;
 }
 
 footer {
-    position: fixed;
     bottom: 0;
     width: 100vw;
     background-color: green;
@@ -23,7 +31,7 @@ section {
 
 #contact {
     background-color: antiquewhite;
-    padding: 20%;
+    padding: 20px;
     border: 5px solid darkgrey;
 }
 
@@ -35,4 +43,17 @@ a {
     color: white;
     text-decoration: none;
     margin: 20px; 
+}
+
+.text-center {
+    text-align: center;
+}
+
+img {
+    margin: 0 auto;
+    display: block;
+}
+
+main {
+    background-color: blue;
 }
